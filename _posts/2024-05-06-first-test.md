@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: title title
 subtitle: subtitle subtitile
 gh-repo: 
