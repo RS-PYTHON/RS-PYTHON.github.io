@@ -3,7 +3,7 @@ layout: home
 title: RS-Python
 subtitle: TEXT TEXT (index.md)
 ---
-We can add our decription here.
+
 ![This project is funded by the EU and ESA.](/assets/img/ESA-UE.jpg)
 This project is funded by the EU and ESA.
 
