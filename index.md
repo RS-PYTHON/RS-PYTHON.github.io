@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Reference System Python
-subtitle: TEXT TEXT (index.html)
+title: RS-Python
+subtitle: TEXT TEXT (index.md)
 ---
 We can add our decription here.
 ![mon image](/assets/img/crepe.jpg)
