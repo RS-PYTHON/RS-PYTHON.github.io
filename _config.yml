@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My website
+title: Titre ICI
 
 # Your name to show in the footer
 author: Airbus & CS Goup
@@ -70,10 +70,10 @@ share-links-active:
 url-pretty: "rs-python.github.io/"
 
 # Add the website title to the title of every page
-title-on-all-pages: true
+title-on-all-pages: false
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 150
+excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: false
@@ -93,7 +93,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Copernicus,UE,Reference System,Python,STAC,CS,Airbus"
 
 ######################################
 # --- Colours / background image --- #
