@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Reference System Python
+title: Reference System Python 4
 #title-img: /assets/img/ESA-EU.jpg
 
 # Your name to show in the footer
@@ -229,7 +229,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "France/Paris"
+timezone: "Europe/Paris"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
