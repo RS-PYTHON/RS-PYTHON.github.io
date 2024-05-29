@@ -10,7 +10,6 @@ sidebar:
   nav: sidebar-staging
 
 ---
-
 **AUXIP (Auxiliary Data Interface Delivery Point)**:
    - The **AUXIP** serves as the pick-up point for **Sentinel Auxiliary products**.
    - It allows clients to discover and retrieve available products through a standard **OData RESTful API interface**⁴.
