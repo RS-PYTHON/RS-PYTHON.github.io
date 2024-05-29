@@ -3,13 +3,15 @@ title: "RS Catalog"
 permalink: /portfolio/catalog
 excerpt: "STAC Catalog"
 header:
-  image: /
-  teaser: assets/images/architecture/stac.jpg
+  image: /assets/images/architecture/stac_header.jpg
+  teaser: assets/images/architecture/stac_teaser.jpg
 sidebar:
   title: ""
   nav: sidebar-stac
 
 ---
+
+
 The **SpatioTemporal Asset Catalog (STAC)** specification provides a common structure for describing and cataloging spatiotemporal assets. A spatiotemporal asset is any file that represents information about the Earth captured in a certain space and time. STAC allows geospatial data to be more easily searchable and queryable by establishing a standard, unified language. It consists of a network of JSON files that reference other JSON files, with each adhering to specific core specifications depending on the STAC component being described. These components include:
 
 1. **STAC Item**: The foundational building block of STAC, represented as GeoJSON features supplemented with additional metadata. Each item can describe one or more spatiotemporal assets, making it easily readable by modern GIS or geospatial libraries.
@@ -36,17 +38,5 @@ The STAC spec itself provides a lowest common denominator JSON format to wrap ar
     "assets": {}
 }
 ```
-{% highlight ruby %}
-{
-    "stac_version": "1.0.0",
-    "type": "Feature",
-    "id": "20201211_223832_CS2",
-    "bbox": [],
-    "geometry": {},
-    "properties": {},
-    "collection": "simple-collection",
-    "links": [],
-    "assets": {}
-}
-{% endhighlight %}
+
 

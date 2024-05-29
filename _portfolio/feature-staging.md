@@ -3,8 +3,8 @@ title: "RS staging"
 permalink: /portfolio/staging
 excerpt: "STAC Catalog"
 header:
-  image: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
-  teaser: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
+  image: /assets/images/station/station_header.jpg
+  teaser: /assets/images/station/station_teaser.jpg
 sidebar:
   title: ""
   nav: sidebar-staging
