@@ -1,10 +1,10 @@
 ---
-title: "RS virtual environment"
+title: "Virtual environment"
 permalink: /portfolio/jupyter
 excerpt: "RS uses JupyterLab as virtual environment solution."
 header:
-  image: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
-  teaser: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
+  image: /assets/images/architecture/jup_header.jpg
+  teaser: /assets/images/architecture/jup_teaser.jpg
 sidebar:
   title: ""
   nav: sidebar-staging

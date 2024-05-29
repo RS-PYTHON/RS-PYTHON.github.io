@@ -5,11 +5,11 @@ main:
     url: /events
     
 sidebar-stac:
-  - title: "STAC links"
+  - title: "STAC"
     children:
-      - title: "Specification"
+      - title: "STAC specification"
         url: https://stacspec.org/en/about/stac-spec/
-      - title: "Tutorial"
+      - title: "STAC tutorial"
         url: https://stacspec.org/en/tutorials/
 
 sidebar-staging:

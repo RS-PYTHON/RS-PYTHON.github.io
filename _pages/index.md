@@ -45,7 +45,7 @@ feature_row:
 
 
 feature_catalog:
-  - image_path: /assets/images/architecture/stac.jpg
+  - image_path: /assets/images/architecture/stac_teaser.jpg
     alt: "RS-Server Catalog"
     title: "RS-Server Catalog"
     excerpt: "RS-Server offers a fine access control per Collection to the Catalog. 
@@ -56,7 +56,7 @@ The catalog provided by RS-Server adheres to the SpatioTemporal Asset Catalog (S
 
 
 feature_staging:
-  - image_path: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
+  - image_path: /assets/images/station/staging_teaser.jpg
     alt: "RS-Server external data sources"
     title: "RS-Server staging"
     excerpt: "RS-Server offers staging functionality with access control for retrieving products from external data sources. RS-Server grants access to auxiliary data from the AUXIP station, as well as telemetry raw data from CADIP stations. It will also provide access to Sentinel level-0 products from LTA and Level-1 and Level-2 products from PRIP."
@@ -65,7 +65,7 @@ feature_staging:
     btn_class: "btn--primary"
 
 feature_prefect:
-  - image_path: /assets/images/architecture/prefect1.png
+  - image_path: /assets/images/architecture/prefect_teaser.jpg
     alt: "Workflow as a code"
     title: "Processing workflow as a code"
     excerpt: "RS Python leverages the Prefect orchestrator for managing and automating workflows. Prefect simplifies workflow management, reduces operational costs, and provides a smoother experience for data orchestration compared to other tools. Its flexibility, quick adoption, and supportive community make it an excellent choice for RS’s workflow needs."
@@ -75,7 +75,7 @@ feature_prefect:
 
     
 feature_virtual:
-  - image_path: /assets/images/architecture/jup.jpg
+  - image_path: /assets/images/architecture/jup_teaser.jpg
     alt: "Jupyter"
     title: "Virtual environment"
     excerpt: "RS Python provides access to JupyterLab to end-user. The end-user can build or start already made Prefect worflows from RS client libraries. JupyterLab proposes a flexible workspace organization to users making it easier to work with multiple tabs simultaneously. Additionally, JupyterLab provides a comprehensive Markdown editor, enhancing the writing and documentation experience within notebooks.
