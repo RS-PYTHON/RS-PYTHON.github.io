@@ -15,7 +15,7 @@ excerpt: "Reference System Python implements and maintains a new version of the 
 
 
 intro: 
-  - excerpt: 'Welcome to the Reference-System Python ! Our platform is designed to efficiently orchestrate processing pipelines for Copernicus satellite imagery. We will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data.Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions. Join us on this journey as we unlock valuable insights from Earth observation data!  '
+  - excerpt: 'Welcome to the Reference-System Python ! Our platform is designed to efficiently orchestrate processing pipelines for Copernicus satellite imagery. We will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions. Join us on this journey as we unlock valuable insights from Earth observation data!  '
 
 feature_row:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
