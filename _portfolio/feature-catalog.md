@@ -1,5 +1,5 @@
 ---
-title: "RS Catalog"
+title: "Catalog"
 permalink: /portfolio/catalog
 excerpt: "STAC Catalog"
 header:
