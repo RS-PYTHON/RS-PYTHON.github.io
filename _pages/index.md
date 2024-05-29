@@ -15,7 +15,7 @@ excerpt: "Reference System Python implements and maintains a new version of the 
 
 
 intro: 
-  - excerpt: 'RS client libraries will provide Prefect chain to compute any Sentinel-1, Sentinel-2 and Sentinel-3 products. '
+  - excerpt: 'Welcome to the Reference-System Python ! Our platform is designed to efficiently orchestrate processing pipelines for Copernicus satellite imagery. We will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data.Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions. Join us on this journey as we unlock valuable insights from Earth observation data!  '
 
 feature_row:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
@@ -34,6 +34,13 @@ feature_row:
   - image_path: /assets/images/sentinel/1024px-Cloud-free_Europe_ESA17486464.jpeg
     alt: "Europe Sentinel-3 image"
     title: "Sentinel-3"
+
+  - image_path: /assets/images/sentinel/Sentinel-5P_CLOUD,_Effective_radiometric_cloud_fraction.jpg
+    alt: "Cloud Sentinel-5 image"
+    title: "Sentinel-5P"
+
+
+    
     
 
 
@@ -41,7 +48,7 @@ feature_catalog:
   - image_path: /assets/images/architecture/stac.jpg
     alt: "RS-Server Catalog"
     title: "RS-Server Catalog"
-    excerpt: "RS-Server provides a Catalog compliant with the SpatioTemporal Asset Catalog (STAC) format. "
+    excerpt: "RS-Server provides a Catalog compliant with the SpatioTemporal Asset Catalog (STAC) format. It also provides an access control per Collection on top of STAC endpoints. Using a standard format like STAC aims to standardize the way geospatial asset metadata is structured and queried. A “spatiotemporal asset” refers to any file that represents information about the Earth captured at a specific place and time." 
     url: "/portfolio/catalog"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -52,7 +59,7 @@ feature_staging:
     alt: "RS-Server external data sources"
     title: "RS-Server staging"
     excerpt: 'RS-Server provides staging functionality to retrieves product from external data sources. RS-Server can provide access to auxillary data from ADGS station. It can also provide access to Telemetry raw data from CADIP stations, sentinel level-0 product from LTA or Level-1 and Level-2 from PRIP.'
-    url: "#staging-article"
+    url: "/portfolio/staging"
     btn_label: "Read More"
     btn_class: "btn--primary"
 

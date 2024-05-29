@@ -3,7 +3,20 @@ main:
     url: /features
   - title: "Events"
     url: /events
+    
+sidebar-stac:
+  - title: "STAC links"
+    children:
+      - title: "Specification"
+        url: https://stacspec.org/en/about/stac-spec/
+      - title: "Tutorial"
+        url: https://stacspec.org/en/tutorials/
 
-  
-    
-    
+sidebar-staging:
+  - title: "External data source links"
+    image: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
+    children:
+      - title: "Specification"
+        url: https://stacspec.org/en/about/stac-spec/
+      - title: "Tutorial"
+        url: https://stacspec.org/en/tutorials/

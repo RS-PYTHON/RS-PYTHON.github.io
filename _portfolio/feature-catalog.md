@@ -1,28 +1,25 @@
 ---
-title: "RS Spatio Temporal Asset Catalog"
+title: "RS Catalog"
 permalink: /portfolio/catalog
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "STAC Catalog"
 header:
   image: /
-  teaser: /assets/images/architecture/stac.jpg
+  teaser: assets/images/architecture/stac.jpg
 sidebar:
-  - title: "Component"
-    image: /assets/images/architecture/stac.jpg
-    image_alt: "logo"
-    text: "XXXX"
-  - title: "Use Case"
-    text: "YYYY"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  title: ""
+  nav: sidebar-stac
+
 ---
+The **SpatioTemporal Asset Catalog (STAC)** specification provides a common structure for describing and cataloging spatiotemporal assets. A spatiotemporal asset is any file that represents information about the Earth captured in a certain space and time. STAC allows geospatial data to be more easily searchable and queryable by establishing a standard, unified language. It consists of a network of JSON files that reference other JSON files, with each adhering to specific core specifications depending on the STAC component being described. These components include:
+
+1. **STAC Item**: The foundational building block of STAC, represented as GeoJSON features supplemented with additional metadata. Each item can describe one or more spatiotemporal assets, making it easily readable by modern GIS or geospatial libraries.
+
+2. **STAC Catalog**: Provides structural elements to group STAC Items and Collections. Collections are catalogs that add more required metadata and describe a group of related items.
+
+3. **STAC Collection**: Extends Catalog directly, adding additional fields to enable description of spatial and temporal extents, licenses, keywords, providers, and more.
+
+The flexibility and extensibility of the STAC specification allow different domains and tools to utilize it effectively, making it a powerful standard for Earth observation data¹³.
+
 
 The STAC spec itself provides a lowest common denominator JSON format to wrap around any relevant data about the earth. The core GeoJSON object and related structures are designed for extension, so it can adapt to different domains.
 
@@ -39,3 +36,4 @@ The STAC spec itself provides a lowest common denominator JSON format to wrap ar
     "assets": {}
 }
 ```
+
