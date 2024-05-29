@@ -36,4 +36,17 @@ The STAC spec itself provides a lowest common denominator JSON format to wrap ar
     "assets": {}
 }
 ```
+{% highlight ruby %}
+{
+    "stac_version": "1.0.0",
+    "type": "Feature",
+    "id": "20201211_223832_CS2",
+    "bbox": [],
+    "geometry": {},
+    "properties": {},
+    "collection": "simple-collection",
+    "links": [],
+    "assets": {}
+}
+{% endhighlight %}
 
