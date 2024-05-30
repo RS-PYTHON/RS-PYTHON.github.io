@@ -83,6 +83,12 @@ feature_virtual:
     url: "/portfolio/jupyter"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
+feature_deployment:
+  - image_path: /assets/images/architecture/deployment_teaser.jpg
+    alt: "Deployment"
+    title: "RS deployment"
+    excerpt: "RS Server can be deployed on several environments. On a Kubernetes cluster, on a local machine. It is also possible to adopt something in the middle, called the hybrid mode."
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -109,4 +115,6 @@ Here is an example of STAC collection retrieved from RS catalog.
 {% include feature_row id="feature_prefect" type="left" %}
 
 {% include feature_row id="feature_virtual" type="right" %}
+
+{% include feature_row id="feature_deployment" type="left" %}
 
