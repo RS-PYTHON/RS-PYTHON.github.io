@@ -27,3 +27,4 @@ What is already in this release ?
 - Access control 
 - Access to AUXIP and CADIP station is there !
 
+Access to LTA and PRIP will come on next release.
