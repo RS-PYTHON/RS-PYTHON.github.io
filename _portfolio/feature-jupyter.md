@@ -31,7 +31,7 @@ With JupyterLab you will have:
    - This sidebar enhances efficiency by providing quick access to essential features².
 
 You can build or start already made Prefect worflows from RS client libraries. 
-RS Python provides the RS-client python libraries to have atomic components that ease processing workflow construction.
+RS-Client python libraries and some examples are provided to ease the use of RS Python.
 
 
 
