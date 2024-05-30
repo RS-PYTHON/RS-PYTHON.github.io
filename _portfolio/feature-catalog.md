@@ -10,7 +10,7 @@ sidebar:
   nav: sidebar-stac
 
 ---
-
+RS-Server offers a fine **access control** per Collection to the Catalog. Each end-user, thanks to an API-KEY can access to its collection an the ones for which he is authorized. The catalog provided by RS-Server adheres to the SpatioTemporal Asset Catalog (STAC) format. By adopting a standardized format like STAC, RS-Server aims to streamline the organization and querying of geospatial asset metadata.
 
 The **SpatioTemporal Asset Catalog (STAC)** specification provides a common structure for describing and cataloging spatiotemporal assets. A spatiotemporal asset is any file that represents information about the Earth captured in a certain space and time. STAC allows geospatial data to be more easily searchable and queryable by establishing a standard, unified language. It consists of a network of JSON files that reference other JSON files, with each adhering to specific core specifications depending on the STAC component being described. These components include:
 
