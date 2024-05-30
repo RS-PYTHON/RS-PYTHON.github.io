@@ -89,6 +89,9 @@ feature_deployment:
     alt: "Deployment"
     title: "RS deployment"
     excerpt: "RS Server can be deployed on several environments. On a Kubernetes cluster, on a local machine. It is also possible to adopt something in the middle, called the hybrid mode."
+    url: "/portfolio/deployment"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
