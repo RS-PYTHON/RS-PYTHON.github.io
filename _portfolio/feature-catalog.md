@@ -1,13 +1,13 @@
 ---
 title: "Catalog"
 permalink: /portfolio/catalog
-excerpt: "STAC Catalog"
+excerpt: "RS-Server provides a STAC Catalog with a fine access control per Collection and per User."
 header:
   image: /assets/images/architecture/stac_header.jpg
   teaser: assets/images/architecture/stac_teaser.jpg
 sidebar:
   title: ""
-  nav: sidebar-stac
+  nav: sidebar-catalog
 
 ---
 RS-Server offers a fine **access control** per Collection to the Catalog. Each end-user, thanks to an API-KEY can access to its collection an the ones for which he is authorized. The catalog provided by RS-Server adheres to the SpatioTemporal Asset Catalog (STAC) format. By adopting a standardized format like STAC, RS-Server aims to streamline the organization and querying of geospatial asset metadata.

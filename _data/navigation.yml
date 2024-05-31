@@ -4,19 +4,66 @@ main:
   - title: "Events"
     url: /events
     
-sidebar-stac:
-  - title: "STAC"
+sidebar-catalog:
+  - title: "Catalog"
     children:
-      - title: "STAC specification"
-        url: https://stacspec.org/en/about/stac-spec/
-      - title: "STAC tutorial"
-        url: https://stacspec.org/en/tutorials/
+      - title: "Api REST"
+        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/Catalog
+      - title: "Endpoints"
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/catalog/
 
-sidebar-staging:
-  - title: "External data source links"
-    image: /assets/images/station/Svalbard_Ground_System_(33796875886).jpg
+  - title: "STAC standard"
     children:
       - title: "Specification"
         url: https://stacspec.org/en/about/stac-spec/
       - title: "Tutorial"
         url: https://stacspec.org/en/tutorials/
+
+
+sidebar-staging:
+  - title: "CADIP"
+    children:
+      - title: "Api REST"
+        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/CADIP%20stations
+      - title: "Endpoints"
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/cadip/
+  - title: "AUXIP"
+    children:
+      - title: "Api REST"
+        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/ADGS%20stations
+      - title: "Endpoints"
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/adgs/
+  
+
+sidebar-virtual:
+  - title: "Notebook"
+    children:
+      - title: "RS demo"
+        url: https://home.rs-python.eu/rs-documentation/rs-demo/
+
+
+sidebar-deployment:
+  - title: "Notebook"
+    children:
+      - title: "Infrastructure deployment"
+        url: https://home.rs-python.eu/rs-documentation/rs-infrastructure/docs/installation/
+      - title: "RS-server deployment"
+        url: https://home.rs-python.eu/rs-documentation/rs-helm/
+
+sidebar-orchestration:
+  - title: "Prefect"
+    children:
+      - title: "Settings"
+        url:  https://home.rs-python.eu/rs-documentation/rs-infrastructure/docs/how-to/Prefect-Worker
+      - title: "Overview"
+        url: https://docs.prefect.io/latest/
+      - title: "Quickstart"
+        url: https://docs.prefect.io/latest/getting-started/quickstart/
+
+
+        
+
+
+
+
+

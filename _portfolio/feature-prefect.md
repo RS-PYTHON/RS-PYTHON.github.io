@@ -1,13 +1,13 @@
 ---
 title: "Orchestration"
 permalink: /portfolio/prefect
-excerpt: "RS uses Prefect as orchestration solution."
+excerpt: "RS Python proposed Prefect Open Source as a solution to orchestrate Copernicus worflows."
 header:
   image: /assets/images/architecture/prefect_header.jpg
   teaser: assets/images/architecture/prefect_teaser.jpg
 sidebar:
   title: ""
-  nav: sidebar-prefect
+  nav: sidebar-orchestration
 
 ---
 
