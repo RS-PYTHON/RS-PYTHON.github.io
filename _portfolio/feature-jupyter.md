@@ -1,16 +1,16 @@
 ---
 title: "Virtual environment"
 permalink: /portfolio/jupyter
-excerpt: "RS uses JupyterLab as virtual environment solution."
+excerpt: "RS Python proposes JupyterLab as virtual environment to build and start custom Copernicus processing chains."
 header:
   image: /assets/images/architecture/jup_header.jpg
   teaser: /assets/images/architecture/jup_teaser.jpg
 sidebar:
   title: ""
-  nav: sidebar-jupyter
+  nav: sidebar-virtual
 
 ---
-RS Python proposes JupyterLab as virtual environement to build and start your custom processing chain.
+RS Python proposes JupyterLab as virtual environment to build and start your custom processing chain.
 
 
 With JupyterLab you will have: 

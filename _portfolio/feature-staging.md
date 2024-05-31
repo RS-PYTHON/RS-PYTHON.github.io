@@ -1,7 +1,7 @@
 ---
 title: "Staging"
 permalink: /portfolio/staging
-excerpt: "STAC Catalog"
+excerpt: "RS-Server offers staging functionality with access control for retrieving products from Copernicus external data sources (like AUXIP and CADIP stations)."
 header:
   image: /assets/images/station/staging_header.jpg
   teaser: /assets/images/station/staging_teaser.jpg
@@ -27,4 +27,5 @@ What is already in this release ?
 - Access control 
 - Access to AUXIP and CADIP station is there !
 
-Access to LTA and PRIP will come on next release.
+Access to LTA and PRIP and providing staging as a STAC service will come on next release. 
+

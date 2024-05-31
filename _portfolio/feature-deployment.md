@@ -1,7 +1,7 @@
 ---
-title: "Deployment and different modes"
+title: "Deployment"
 permalink: /portfolio/deployment
-excerpt: "Deployment"
+excerpt: "RS-Server can be deployed on a cluster, in local or on an hybrid mode."
 header:
   image: /assets/images/architecture/deployment_header.jpg
   teaser: /assets/images/architecture/deployment_teaser.jpg
