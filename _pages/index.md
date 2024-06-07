@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.jpg
   actions:
-    - label: "Download"
+    - label: "Software"
       url: "https://github.com/RS-PYTHON"
   caption: "South Georgia Island as seen by Sentinel-2"
 excerpt: "Reference System Python implements and maintains a new version of the RS Software compatible with the new Python-based processors, taking advantage of existing Python libraries (in particular Prefect) and novel tools to maximise the flexibility and simplify the maintainability of the solution."
