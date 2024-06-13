@@ -43,11 +43,11 @@ sidebar-virtual:
 
 
 sidebar-deployment:
-  - title: "Notebook"
+  - title: "Deploy"
     children:
-      - title: "Infrastructure deployment"
+      - title: "Infra"
         url: https://home.rs-python.eu/rs-documentation/rs-infrastructure/docs/installation/
-      - title: "RS-server deployment"
+      - title: "RS Server"
         url: https://home.rs-python.eu/rs-documentation/rs-helm/
 
 sidebar-orchestration:
