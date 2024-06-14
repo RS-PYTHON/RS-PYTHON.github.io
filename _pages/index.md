@@ -8,7 +8,6 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.jpg
   actions:
-update-content
     - label: "Deploy"
       url: "https://home.rs-python.eu/rs-documentation/rs_deployment_start/"
   caption: "South Georgia Island as seen by Sentinel-2"
