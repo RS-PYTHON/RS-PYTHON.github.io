@@ -8,8 +8,9 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.jpg
   actions:
-    - label: "Software"
-      url: "https://github.com/RS-PYTHON"
+update-content
+    - label: "Deploy"
+      url: "https://home.rs-python.eu/rs-documentation/rs_deployment_start/"
   caption: "South Georgia Island as seen by Sentinel-2"
 excerpt: "Reference System Python implements and maintains a new version of the RS Software compatible with the new Python-based processors, taking advantage of existing Python libraries (in particular Prefect) and novel tools to maximise the flexibility and simplify the maintainability of the solution."
 
@@ -17,14 +18,13 @@ excerpt: "Reference System Python implements and maintains a new version of the 
 intro: 
   - excerpt: 'Welcome to the Reference-System Python ! Our platform is designed to efficiently orchestrate processing pipelines for Copernicus satellite imagery. We will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions. Join us on this journey as we unlock valuable insights from Earth observation data!  '
 
-feature_row:
+feature_row_sentinel:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
     alt: "Irkutsk and Lake Baika Sentinel-1 image"
     title: "Sentinel-1"
 #    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
   - image_path: /assets/images/sentinel/Lake_MacKay_Australia.jpg
-#    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Lake MacKay Australia Sentinel-2 image"
     title: "Sentinel-2"
 #    url: "#test-link"
@@ -88,7 +88,7 @@ feature_deployment:
   - image_path: /assets/images/architecture/deployment_teaser.jpg
     alt: "Deployment"
     title: "RS deployment"
-    excerpt: "RS Server can be deployed on several environments. On a Kubernetes cluster, on a local machine. It is also possible to adopt something in the middle, called the hybrid mode."
+    excerpt: "RS Server can be deployed on several environments. On a Kubernetes cluster or on a local machine. From the local machine it is also possible to access both local Catalog and remote RS-Server services."
     url: "/portfolio/deployment"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -96,7 +96,7 @@ feature_deployment:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row_sentinel"  %}
 
 {% include feature_row id="feature_catalog" type="left" %}
 Here is an example of STAC collection retrieved from RS catalog.
@@ -121,3 +121,24 @@ Here is an example of STAC collection retrieved from RS catalog.
 
 {% include feature_row id="feature_deployment" type="left" %}
 
+<style type="text/css">
+  #conteneur {
+    margin-top:0;
+    margin-bottom:0;
+    text-align: left;
+    }
+</style>
+
+## Cluster mode
+Here are **CSC RS-Python in a Nutshell** features from the cluster.
+
+<div id="conteneur">
+  <img src="/assets/images/architecture/RSPY_cluster.jpg" width="1500" height="701">
+</div>
+
+
+## Local mode
+And here are **CSC RS-Python in a Nutshell** features from the laptop.
+<div id="conteneur">
+  <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
+</div>

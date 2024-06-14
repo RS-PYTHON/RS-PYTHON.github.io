@@ -43,11 +43,11 @@ sidebar-virtual:
 
 
 sidebar-deployment:
-  - title: "Notebook"
+  - title: "Deployment"
     children:
-      - title: "Infrastructure deployment"
+      - title: "Infrastructure"
         url: https://home.rs-python.eu/rs-documentation/rs-infrastructure/docs/installation/
-      - title: "RS-server deployment"
+      - title: "RS Server"
         url: https://home.rs-python.eu/rs-documentation/rs-helm/
 
 sidebar-orchestration:
@@ -59,11 +59,6 @@ sidebar-orchestration:
         url: https://docs.prefect.io/latest/
       - title: "Quickstart"
         url: https://docs.prefect.io/latest/getting-started/quickstart/
-
-
-        
-
-
 
 
 
