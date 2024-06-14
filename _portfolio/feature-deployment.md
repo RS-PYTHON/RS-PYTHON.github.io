@@ -1,6 +1,5 @@
 ---
 title: "Deployment"
-layout: splash
 permalink: /portfolio/deployment
 excerpt: "RS-Server can be deployed on a cluster or locally."
 header:
@@ -11,7 +10,7 @@ sidebar:
   nav: sidebar-deployment
 
 ---
-RS-Server offers two deployment targets:
+RS-Server offers two deployment targets: 
 - cluster
 - local
 
@@ -22,19 +21,6 @@ On the **cluster  mode**, the RS-Server is deployed as several Kubernetes PODs. 
 On the cluster environement, RS-Server can be called from a Prefect chain or directy from a Jupyter notebook.
 The RS-Server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
 
-After deployment, here are **CSC RS-Python in a Nutshell** features from the cluster.
-<style type="text/css">
-  #conteneur {
-    margin-top:0;
-    margin-bottom:0;
-    text-align: left;
-    }
-</style>
-
-
-<div id="conteneur">
-  <img src="/assets/images/architecture/RSPY_cluster.jpg" width="1500" height="701">
-</div>
 
 
 ## Local mode
@@ -43,11 +29,6 @@ On **local mode**, RS-Server deploys a Catalog without access control.
 From the local machine, end user can:
 - read / write to the local RS-Server catalog
 - connect to the RS-Server running on the cluster and access any service which is authorised for.
-
-After deployment, here are **CSC RS-Python in a Nutshell** features from the laptop.
-<div id="conteneur">
-  <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
-</div>
 
 
 
