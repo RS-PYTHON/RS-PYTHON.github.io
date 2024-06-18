@@ -94,7 +94,25 @@ feature_deployment:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row_sentinel"  %}
+
+<table>
+	<tr>
+		<th><img src="/assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg" width="516" height="414"  alt="Irkutsk and Lake Baika Sentinel-1 image"></th>
+		<th><img src="/assets/images/sentinel/Lake_MacKay_Australia.jpg" width="516" height="414" alt="Lake MacKay Australia Sentinel-2 image"></th>
+		<th><img src="/assets/images/sentinel/1024px-Cloud-free_Europe_ESA17486464.jpeg" width="516" height="414" alt="Europe Sentinel-3 image"></th>
+ 		<th><img src="/assets/images/sentinel/Sentinel-5P_CLOUD,_Effective_radiometric_cloud_fraction.jpg"  width="516" height="414" alt="Cloud Sentinel-5 image"></th>
+ 	</tr>
+ 	<tr>
+  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1"><center><b>Sentinel-1</b></center></a><br/><br/></td>
+  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2"><center><b>Sentinel-2</b></center></a><br/><br/></td>
+  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-3"><center><b>Sentinel-3</b></center></a><br/><br/></td>
+  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-P"><center><b>Sentinel-5P</b></center></a><br/><br/></td>
+
+ 	</tr>
+	
+</table>
+
+
 
 {% include feature_row id="feature_catalog" type="left" %}
 Here is an example of STAC collection retrieved from RS catalog.

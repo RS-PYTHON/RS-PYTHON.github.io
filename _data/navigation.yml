@@ -10,7 +10,7 @@ sidebar-catalog:
       - title: "Api REST"
         url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/Catalog
       - title: "Endpoints"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/catalog/
+        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/users/catalog/
 
   - title: "STAC standard"
     children:
