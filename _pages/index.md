@@ -1,5 +1,5 @@
 ---
-title: "RS Software"
+title: "RS Python"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -11,10 +11,13 @@ header:
     - label: "Deploy"
       url: "https://home.rs-python.eu/rs-documentation/rs_deployment_start/"
   caption: "South Georgia Island as seen by Sentinel-2"
-excerpt: "Reference System Python implements and maintains a new version of the RS Software compatible with the new Python-based processors, taking advantage of existing Python libraries (in particular Prefect) and novel tools to maximise the flexibility and simplify the maintainability of the solution."
+excerpt: "The Copernicus Space Component Reference System is an open-source software solution allowing to implement, maintain, deploy, operate and monitor Sentinel data processing <b>workflows</b> based on the future re-engineered Level 0, 1, 2 Sentinel Data processors (Q3 2024/2025)."
+
 
 intro: 
-  - excerpt: 'Welcome to the Reference System Python ! Our platform is designed to efficiently orchestrate processing pipelines for Copernicus satellite imagery. We will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions. Join us on this journey as we unlock valuable insights from Earth observation data!  '
+  - excerpt: '<p align="justify">RS Python features an innovative workflow orchestration solution built around the python Prefect orchestration framework and the adoption of the SpatioTemporal Asset Catalog (STAC) concepts for internal data management. RS Python can be installed locally or scaled up on a cloud cluster as a multi-user data processing platform. It is designed to be securely integrated with the CSC Ground Segment Operational context.</p> 
+
+<p align="justify">With the RS Python solution, one can set up a platform to support Copernicus Ground Segment operation related activities such as processor validation and benchmarking, implementation and fine-tuning of data processing workflows, re-processing and production services, data quality investigations, integration of new processors and missions.</p>'
 
 feature_row_sentinel:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
@@ -93,8 +96,9 @@ feature_deployment:
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-
+  
+<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions.</p>   
+  
 <table>
 	<tr>
 		<th><img src="/assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg" width="516" height="414"  alt="Irkutsk and Lake Baika Sentinel-1 image"></th>
