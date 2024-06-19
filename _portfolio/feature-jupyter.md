@@ -30,8 +30,8 @@ With JupyterLab you will have:
    - JupyterLab's collapsible left sidebar contains commonly used tabs, such as the file browser, running kernels, and a command palette.
    - This sidebar enhances efficiency by providing quick access to essential features².
 
-You can build or start already made Prefect worflows from RS client libraries. 
-RS-Client python libraries and some examples are provided to ease the use of RS Python.
+You can build or start already made Prefect worflows from rs-client libraries. 
+The rs-client python libraries and some examples are provided to ease the use of RS Python.
 
 
 
