@@ -1,5 +1,5 @@
 ---
-title:  "RS-Python checkpoint"
+title:  "RS Python checkpoint"
 date:   2024-05-13 10:00:00 +0200
 last_modified_at: 2024-05-29T13:20:02
 tags:

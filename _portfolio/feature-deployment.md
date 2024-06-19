@@ -10,25 +10,25 @@ sidebar:
   nav: sidebar-deployment
 
 ---
-RS-Server offers two deployment targets: 
+The rs-server offers two deployment targets: 
 - cluster
 - local
 
 For each kind of deployment, here are the overall associated features.
 
 ## Cluster mode
-On the **cluster  mode**, the RS-Server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided. 
-On the cluster environement, RS-Server can be called from a Prefect chain or directy from a Jupyter notebook.
-The RS-Server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
+On the **cluster  mode**, the rs-server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided. 
+On the cluster environement, rs-server can be called from a Prefect chain or directy from a Jupyter notebook.
+The rs-server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
 
 
 
 ## Local mode
-On **local mode**, RS-Server deploys a Catalog without access control.
+On **local mode**, rs-server deploys a Catalog without access control.
 
 From the local machine, end user can:
-- read / write to the local RS-Server catalog
-- connect to the RS-Server running on the cluster and access any service which is authorised for.
+- read / write to the local rs-server catalog
+- connect to the rs-server running on the cluster and access any service which is authorised for.
 
 
 
