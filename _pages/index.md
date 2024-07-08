@@ -110,7 +110,7 @@ feature_deployment:
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1"><center><b>Sentinel-1</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2"><center><b>Sentinel-2</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-3"><center><b>Sentinel-3</b></center></a><br/><br/></td>
-  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-P"><center><b>Sentinel-5P</b></center></a><br/><br/></td>
+  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-5P"><center><b>Sentinel-5P</b></center></a><br/><br/></td>
 
  	</tr>
 	
