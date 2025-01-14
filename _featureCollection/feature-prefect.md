@@ -1,6 +1,6 @@
 ---
 title: "Orchestration"
-permalink: /portfolio/prefect
+permalink: /feature/prefect
 excerpt: "RS Python proposed Prefect Open Source as a solution to orchestrate Copernicus worflows."
 header:
   image: /assets/images/architecture/prefect_header.jpg
@@ -24,10 +24,3 @@ Prefect Open Source version has been choosen as orchestrator for RS Python proje
 RS Python provides some already made chain to process copernicus Sentinel chain.
 
 
-
-<span style="color: black; background-color: #1A89DF;">**version 0.1**</span>
-What is already in this release ? 
-- Prefect is deployed on the RS Python solution
-
-There is no access control per user to all Prefect workflow. The Open Source solution does not provide this function. 
-This feature needs to be studied.

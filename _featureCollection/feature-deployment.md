@@ -1,6 +1,6 @@
 ---
 title: "Deployment"
-permalink: /portfolio/deployment
+permalink: /feature/deployment
 excerpt: "RS-Server can be deployed on a cluster or locally."
 header:
   image: /assets/images/architecture/deployment_header.jpg
@@ -21,6 +21,13 @@ On the **cluster  mode**, the rs-server is deployed as several Kubernetes PODs. 
 On the cluster environement, rs-server can be called from a Prefect chain or directy from a Jupyter notebook.
 The rs-server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
 
+Here are **CSC RS Python in a Nutshell** features from the cluster.
+
+<div id="conteneur">
+  <img src="/assets/images/architecture/RSPY_cluster.jpg" width="1500" height="701">
+</div>
+
+
 
 
 ## Local mode
@@ -30,15 +37,12 @@ From the local machine, end user can:
 - read / write to the local rs-server catalog
 - connect to the rs-server running on the cluster and access any service which is authorised for.
 
+And here are **CSC RS Python in a Nutshell** features from the laptop.
+<div id="conteneur">
+  <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
+</div>
 
 
-
-<span style="color: black; background-color: #1A89DF;">**version 0.1**</span>
-What is already in this release ? 
-- cluster mode 
-- local mode
-
-From the local laptop, it is not possible to run directly a Prefect chain running the cluster.
 
 
 
