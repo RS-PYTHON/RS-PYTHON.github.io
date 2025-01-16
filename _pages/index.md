@@ -1,4 +1,7 @@
 ---
+
+
+
 title: "RS Python"
 layout: splash
 permalink: /
@@ -8,17 +11,26 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.jpg
   actions:
-    - label: "Deploy"
-      url: "https://home.rs-python.eu/rs-documentation/rs_deployment_start/"
-  caption: "South Georgia Island as seen by Sentinel-2"
-excerpt: "The Copernicus Space Component Reference System is an open-source software solution allowing to implement, maintain, deploy, operate and monitor Sentinel data processing <b>workflows</b> based on the future re-engineered Level 0, 1, 2 Sentinel Data processors (Q3 2024/2025)."
+    - label: "rs-server"
+      url: "https://rspy.ops.rs-python.eu/docs"
+    - label: "rs-catalog"
+      url: "https://stac-browser-catalog.ops.rs-python.eu/"
+    - label: "rs-cadip"
+      url: "https://stac-browser-cadip.ops.rs-python.eu"
+    - label: "rs-auxip"
+      url: "https://stac-browser-auxip.ops.rs-python.eu/"
+    - label: "processing"
+      url: "https://prefect3.ops.rs-python.eu/dashboard"
+    - label: "virtual environment" 
+      url: "https://processing.ops.rs-python.eu/jupyter"
+    - label: "monitoring"
+      url: "https://monitoring.ops.rs-python.eu"
 
+caption: "South Georgia Island as seen by Sentinel-2"
+excerpt: 'The Copernicus Space Component Reference System is an open-source software solution allowing to implement, maintain, deploy, operate and monitor Sentinel data processing <b>workflows</b> based on the future re-engineered Level 0, 1, 2 Sentinel Data processors.<br/><br/>
+<left>Operational platform available at working hours</left>'
 
 intro: 
-  - excerpt: '<p align="justify">RS Python features an innovative workflow orchestration solution built around the python Prefect orchestration framework and the adoption of the SpatioTemporal Asset Catalog (STAC) concepts for internal data management. RS Python can be installed locally or scaled up on a cloud cluster as a multi-user data processing platform. It is designed to be securely integrated with the CSC Ground Segment Operational context.</p> 
-
-<p align="justify">With the RS Python solution, one can set up a platform to support Copernicus Ground Segment operation related activities such as processor validation and benchmarking, implementation and fine-tuning of data processing workflows, re-processing and production services, data quality investigations, integration of new processors and missions.</p>'
-
 feature_row_sentinel:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
     alt: "Irkutsk and Lake Baika Sentinel-1 image"
@@ -41,17 +53,13 @@ feature_row_sentinel:
     title: "Sentinel-5P"
 
 
-    
-    
 
-
-feature_catalog:
-  - image_path: /assets/images/architecture/stac_teaser.jpg
-    alt: "RS-Server Catalog"
-    title: "RS-Server Catalog"
-    excerpt: "The rs-server offers a fine access control per Collection to the Catalog. 
-The catalog provided by rs-server adheres to the SpatioTemporal Asset Catalog (STAC) format. By adopting a standardized format like STAC, rs-server aims to streamline the organization and querying of geospatial asset metadata. The term “spatiotemporal asset” encompasses any file that conveys information about Earth captured at a specific location and time."
-    url: "/portfolio/catalog"
+feature_rsserver:
+  - image_path: /assets/images/architecture/rs-server_teaser.jpg
+    alt: "RS-Server"
+    title: "RS-Server"
+    excerpt: "The Reference System server offers essential services for building Copernicus processing workflows, all secured by stringent access controls. With RS-Server, STAC integration is seamless. RS-Server features a comprehensive catalog of Sentinel products, fully compatible with the STAC (SpatioTemporal Asset Catalog) standard. Additionally, it provides STAC interfaces to retrieve AUXIP and CADIP data. A versatile staging function rounds out this robust suite of services."
+    url: "/feature/rs-server"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -61,7 +69,7 @@ feature_staging:
     alt: "RS-Server external data sources"
     title: "RS-Server staging"
     excerpt: "The rs-server offers staging functionality with access control for retrieving products from external data sources. The rs-server grants access to auxiliary data from the AUXIP station, as well as telemetry raw data from CADIP stations. It will also provide access to Sentinel level-0 products from LTA and Level-1 and Level-2 products from PRIP."
-    url: "/portfolio/staging"
+    url: "/feature/staging"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -70,7 +78,7 @@ feature_prefect:
     alt: "Workflow as a code"
     title: "Processing workflow as a code"
     excerpt: "RS Python leverages the Prefect orchestrator for managing and automating workflows. Prefect simplifies workflow management, reduces operational costs, and provides a smoother experience for data orchestration compared to other tools. Its flexibility, quick adoption, and supportive community make it an excellent choice for RS’s workflow needs."
-    url: "/portfolio/prefect"
+    url: "/feature/prefect"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -81,7 +89,7 @@ feature_virtual:
     title: "Virtual environment"
     excerpt: "RS Python provides access to JupyterLab to end-user. The end-user can build or start already made Prefect worflows from rs-client libraries. JupyterLab proposes a flexible workspace organization to users making it easier to work with multiple tabs simultaneously. Additionally, JupyterLab provides a comprehensive Markdown editor, enhancing the writing and documentation experience within notebooks.
     JupyterLab offers a richer and more efficient data programming experience, making it a wise choice for RS."
-    url: "/portfolio/jupyter"
+    url: "/feature/jupyter"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
@@ -90,7 +98,7 @@ feature_deployment:
     alt: "Deployment"
     title: "RS deployment"
     excerpt: "The rs-server can be deployed on several environments. On a Kubernetes cluster or on a local machine. From the local machine it is also possible to access both local Catalog and remote rs-server services."
-    url: "/portfolio/deployment"
+    url: "/feature/deployment"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -118,22 +126,8 @@ feature_deployment:
 
 
 
-{% include feature_row id="feature_catalog" type="left" %}
-Here is an example of STAC collection retrieved from RS catalog.
-``` javascript 
- {
-    "stac_version": "1.0.0",
-    "type": "Collection",
-    "license": "XXX",
-    "id": "20201211_223832_XXX",
-    "description": "A simple collection example",
-    "links": [],
-    "extent": {},
-    "summaries": {}
-}
-```
 
-{% include feature_row id="feature_staging" type="right" %}
+{% include feature_row id="feature_rsserver" type="right" %}
 
 {% include feature_row id="feature_prefect" type="left" %}
 
@@ -149,16 +143,3 @@ Here is an example of STAC collection retrieved from RS catalog.
     }
 </style>
 
-## Cluster mode
-Here are **CSC RS Python in a Nutshell** features from the cluster.
-
-<div id="conteneur">
-  <img src="/assets/images/architecture/RSPY_cluster.jpg" width="1500" height="701">
-</div>
-
-
-## Local mode
-And here are **CSC RS Python in a Nutshell** features from the laptop.
-<div id="conteneur">
-  <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
-</div>

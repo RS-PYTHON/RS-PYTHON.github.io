@@ -1,16 +1,23 @@
 main:
   - title: "Features"
     url: /features
+  - title: "Services"
+    url: /services    
   - title: "Events"
     url: /events
-    
-sidebar-catalog:
-  - title: "Catalog"
+
+sidebar-rsserver:
+  - title: "rs-server"
     children:
-      - title: "Api REST"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/swagger_index/
-      - title: "Endpoints"
+      - title: "Catalog"
         url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/users/catalog/
+      - title: "Search ADGS"
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/adgs/
+      - title: "Search CADIP"
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/cadip/
+      - title: "Api REST"
+        url: https://rspy.ops.rs-python.eu/docs
+
 
   - title: "STAC standard"
     children:
