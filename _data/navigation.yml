@@ -31,13 +31,13 @@ sidebar-staging:
   - title: "CADIP"
     children:
       - title: "Api REST"
-        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/CADIP%20stations
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/swagger_index/#CADIP
       - title: "Endpoints"
         url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/cadip/
   - title: "AUXIP"
     children:
       - title: "Api REST"
-        url: https://home.rs-python.eu/rs-documentation/rs-server/docs/doc/api/rest/#/ADGS%20stations
+        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/swagger_index/#ADGS
       - title: "Endpoints"
         url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/adgs/
   
