@@ -1,8 +1,6 @@
 main:
   - title: "Features"
     url: /features
-  - title: "Services"
-    url: /services    
   - title: "Events"
     url: /events
 
