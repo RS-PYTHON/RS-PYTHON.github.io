@@ -1,6 +1,6 @@
 ---
 title: "Virtual environment"
-permalink: /portfolio/jupyter
+permalink: /feature/jupyter
 excerpt: "RS Python proposes JupyterLab as virtual environment to build and start custom Copernicus processing chains."
 header:
   image: /assets/images/architecture/jup_header.jpg
