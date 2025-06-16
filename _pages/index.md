@@ -20,7 +20,7 @@ header:
     - label: "rs-auxip"
       url: "https://stac-browser-auxip.ops.rs-python.eu/"
     - label: "processing"
-      url: "https://prefect3.ops.rs-python.eu/dashboard"
+      url: "https://processing.ops.rs-python.eu/dashboard"
     - label: "virtual environment" 
       url: "https://processing.ops.rs-python.eu/jupyter"
     - label: "monitoring"
@@ -48,9 +48,6 @@ feature_row_sentinel:
     alt: "Europe Sentinel-3 image"
     title: "Sentinel-3"
 
-  - image_path: /assets/images/sentinel/Sentinel-5P_CLOUD,_Effective_radiometric_cloud_fraction.jpg
-    alt: "Cloud Sentinel-5 image"
-    title: "Sentinel-5P"
 
 
 
@@ -105,20 +102,20 @@ feature_deployment:
 
 {% include feature_row id="intro" type="center" %}
   
-<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. Looking ahead, we’re excited to expand our capabilities to include Sentinel-5P and other upcoming Copernicus missions.</p>   
+<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. </p>   
   
 <table>
 	<tr>
 		<th><img src="/assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg" width="516" height="414"  alt="Irkutsk and Lake Baika Sentinel-1 image"></th>
 		<th><img src="/assets/images/sentinel/Lake_MacKay_Australia.jpg" width="516" height="414" alt="Lake MacKay Australia Sentinel-2 image"></th>
 		<th><img src="/assets/images/sentinel/1024px-Cloud-free_Europe_ESA17486464.jpeg" width="516" height="414" alt="Europe Sentinel-3 image"></th>
- 		<th><img src="/assets/images/sentinel/Sentinel-5P_CLOUD,_Effective_radiometric_cloud_fraction.jpg"  width="516" height="414" alt="Cloud Sentinel-5 image"></th>
+ 		
  	</tr>
  	<tr>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1"><center><b>Sentinel-1</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2"><center><b>Sentinel-2</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-3"><center><b>Sentinel-3</b></center></a><br/><br/></td>
-  	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-5P"><center><b>Sentinel-5P</b></center></a><br/><br/></td>
+  	
 
  	</tr>
 	

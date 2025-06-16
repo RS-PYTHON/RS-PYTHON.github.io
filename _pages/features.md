@@ -6,7 +6,7 @@ collection: featureCollection
 entries_layout: grid
 classes: wide
 order:
-    - feature_rsserver.md
+    - feature-rsserver.md
     - feature-prefect.md
     - feature-jupyter.md
     - feature-deployment.md
