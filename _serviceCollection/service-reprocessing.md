@@ -15,6 +15,6 @@ This service allows to reprocess any type of Sentinel products.
 The parameters to start the service:
 -	The satellite (A, B, C)
 -	The mission (S1, S2, S3 or S5)
--	The list of input products to be re-processed 
+-	The list of input products to be re-processed
 -	The list of workflows to be used (name and version)
 The data is then accessible via a STAC interface during one month.

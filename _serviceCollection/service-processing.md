@@ -10,14 +10,14 @@ header:
 <span style="color: red;">Service in construction. Not yet available.</span>
 
 
-This service provides access to a rs-python cluster (Jupyter/Prefect environment) and an optional access to external data sources (CADIP, LTA, PRIP, ADGS) via a STAC interface. The amount of available nodes depends on the 
+This service provides access to a rs-python cluster (Jupyter/Prefect environment) and an optional access to external data sources (CADIP, LTA, PRIP, ADGS) via a STAC interface. The amount of available nodes depends on the
 
 Authorized users can generate their own products:
 - from systematic workflows available
-- from their own workflows (on-demand processing)  
+- from their own workflows (on-demand processing)
 
 
-For this service, three profiles are considered: 
+For this service, three profiles are considered:
 - low
 - medium
 - high

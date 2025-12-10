@@ -13,5 +13,3 @@ permalink: /post/checkpoint
 Join us for an interactive webinar introducing the first version of Reference System Python (RS Python) on the 20th June 2024 . This checkpoint marks a significant milestone in our journey. RS Python is designed to empower developers, streamline workflows, and enhance productivity.
 
 Join the RS Python team for an engaging session. Ask questions, share feedback, and be part of the conversation as we dive into the details of this exciting release!
-
-

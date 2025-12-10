@@ -13,7 +13,7 @@ sidebar:
 RS Python proposes JupyterLab as virtual environment to build and start your custom processing chain.
 
 
-With JupyterLab you will have: 
+With JupyterLab you will have:
 1. **Unified Environment**:
    - JupyterLab combines various tools into a single interface. It integrates classic notebooks, a text editor, a terminal, and a directory viewer, making it a unified experience for data scientists.
    - You'll no longer feel like you're working with separate software; everything is conveniently accessible in one place.
@@ -30,9 +30,5 @@ With JupyterLab you will have:
    - JupyterLab's collapsible left sidebar contains commonly used tabs, such as the file browser, running kernels, and a command palette.
    - This sidebar enhances efficiency by providing quick access to essential features².
 
-You can build or start already made Prefect worflows from rs-client libraries. 
+You can build or start already made Prefect worflows from rs-client libraries.
 The rs-client python libraries and some examples are provided to ease the use of RS Python.
-
-
-
-
