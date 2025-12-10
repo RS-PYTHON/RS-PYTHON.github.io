@@ -10,7 +10,7 @@ header:
 <span style="color: red;">Service in construction. Not yet available.</span>
 
 
-This service provides access to AUXILIARY and CADIP data through a STAC interface. 
+This service provides access to AUXILIARY and CADIP data through a STAC interface.
 Authorized users can retrieve AUXILIARY and CADIP data via a STAC interface from the RS platform.
 
 Access is granted on a per-STAC-collection basis. Authorized users can search for and stage data.

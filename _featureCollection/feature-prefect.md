@@ -22,5 +22,3 @@ Prefect Open Source version has been choosen as orchestrator for RS Python proje
 4. **Lightweight**: Prefect is lightweight and easy to set up. You can start a local development server with a single command, making it convenient for testing and development².
 
 RS Python provides some already made chain to process copernicus Sentinel chain.
-
-

@@ -10,14 +10,14 @@ sidebar:
   nav: sidebar-deployment
 
 ---
-The rs-server offers two deployment targets: 
+The rs-server offers two deployment targets:
 - cluster
 - local
 
 For each kind of deployment, here are the overall associated features.
 
 ## Cluster mode
-On the **cluster  mode**, the rs-server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided. 
+On the **cluster  mode**, the rs-server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided.
 On the cluster environement, rs-server can be called from a Prefect chain or directy from a Jupyter notebook.
 The rs-server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
 
@@ -41,8 +41,3 @@ And here are **CSC RS Python in a Nutshell** features from the laptop.
 <div id="conteneur">
   <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
 </div>
-
-
-
-
-

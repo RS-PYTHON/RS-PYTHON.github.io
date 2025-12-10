@@ -21,7 +21,7 @@ header:
       url: "https://stac-browser-auxip.ops.rs-python.eu/"
     - label: "processing"
       url: "https://processing.ops.rs-python.eu/dashboard"
-    - label: "virtual environment" 
+    - label: "virtual environment"
       url: "https://processing.ops.rs-python.eu/jupyter"
     - label: "monitoring"
       url: "https://monitoring.ops.rs-python.eu"
@@ -30,7 +30,7 @@ caption: "South Georgia Island as seen by Sentinel-2"
 excerpt: 'The Copernicus Space Component Reference System is an open-source software solution allowing to implement, maintain, deploy, operate and monitor Sentinel data processing <b>workflows</b> based on the future re-engineered Level 0, 1, 2 Sentinel Data processors.<br/><br/>
 <left>Operational platform available at working hours</left>'
 
-intro: 
+intro:
 feature_row_sentinel:
   - image_path: assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg
     alt: "Irkutsk and Lake Baika Sentinel-1 image"
@@ -79,7 +79,7 @@ feature_prefect:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-    
+
 feature_virtual:
   - image_path: /assets/images/architecture/jup_teaser.jpg
     alt: "Jupyter"
@@ -89,7 +89,7 @@ feature_virtual:
     url: "/feature/jupyter"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
+
 feature_deployment:
   - image_path: /assets/images/architecture/deployment_teaser.jpg
     alt: "Deployment"
@@ -101,24 +101,24 @@ feature_deployment:
 ---
 
 {% include feature_row id="intro" type="center" %}
-  
-<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. </p>   
-  
+
+<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. </p>
+
 <table>
 	<tr>
 		<th><img src="/assets/images/sentinel/Irkutsk_and_Lake_Baikal_ESA15342560.jpeg" width="516" height="414"  alt="Irkutsk and Lake Baika Sentinel-1 image"></th>
 		<th><img src="/assets/images/sentinel/Lake_MacKay_Australia.jpg" width="516" height="414" alt="Lake MacKay Australia Sentinel-2 image"></th>
 		<th><img src="/assets/images/sentinel/1024px-Cloud-free_Europe_ESA17486464.jpeg" width="516" height="414" alt="Europe Sentinel-3 image"></th>
- 		
+
  	</tr>
  	<tr>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-1"><center><b>Sentinel-1</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-2"><center><b>Sentinel-2</b></center></a><br/><br/></td>
   	<td><a href="https://sentinels.copernicus.eu/web/sentinel/copernicus/sentinel-3"><center><b>Sentinel-3</b></center></a><br/><br/></td>
-  	
+
 
  	</tr>
-	
+
 </table>
 
 
@@ -139,4 +139,3 @@ feature_deployment:
     text-align: left;
     }
 </style>
-
