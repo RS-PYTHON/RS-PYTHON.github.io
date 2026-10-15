@@ -17,9 +17,9 @@ The rs-server offers two deployment targets:
 For each kind of deployment, here are the overall associated features.
 
 ## Cluster mode
-On the **cluster  mode**, the rs-server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided.
-On the cluster environement, rs-server can be called from a Prefect chain or directy from a Jupyter notebook.
-The rs-server running the cluster has got a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
+On the **cluster mode**, the rs-server is deployed as several Kubernetes PODs. A deployment with HELM chart is provided.
+On the cluster environment, rs-server can be called from a Prefect chain or directly from a Jupyter notebook.
+The rs-server running the cluster has a strong access control for each sensitive data access (CADIP, LTA, AUXIP, PRIP, and Catalog).
 
 Here are **CSC RS Python in a Nutshell** features from the cluster.
 
@@ -31,13 +31,13 @@ Here are **CSC RS Python in a Nutshell** features from the cluster.
 
 
 ## Local mode
-On **local mode**, rs-server deploys a Catalog without access control.
+On **local mode**, rs-server, the station mockups, Prefect, Dask and a Jupyter server are deployed on the local machine
+with Docker Compose, without access control. It is used for development and tests: from the local machine, the end
+user can read and write the local rs-server catalog, and run the Prefect flows locally.
 
-From the local machine, end user can:
-- read / write to the local rs-server catalog
-- connect to the rs-server running on the cluster and access any service which is authorised for.
+See the [RS-Python documentation](https://home.rs-python.eu/rs-documentation/) for the details of both modes.
 
-And here are **CSC RS Python in a Nutshell** features from the laptop.
+The differences between both modes:
 <div id="conteneur">
-  <img src="/assets/images/architecture/RSPY_local.jpg" width="1500" height="701">
+  <img src="/assets/images/architecture/local-and-cluster-modes.svg" alt="Local mode and cluster mode">
 </div>
