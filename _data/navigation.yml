@@ -43,15 +43,15 @@ sidebar-staging:
   - title: "CADIP"
     children:
       - title: "Api REST"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/swagger_index/#CADIP
+        url: https://home.rs-python.eu/rs-documentation/services/swagger/
       - title: "Endpoints"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/cadip/
+        url: https://home.rs-python.eu/rs-documentation/annexes/endpoints/#external-data-sources
   - title: "AUXIP"
     children:
       - title: "Api REST"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/swagger_index/#ADGS
+        url: https://home.rs-python.eu/rs-documentation/services/swagger/
       - title: "Endpoints"
-        url: https://home.rs-python.eu/rs-documentation/generate_src_doc/rs-server/adgs/
+        url: https://home.rs-python.eu/rs-documentation/annexes/endpoints/#external-data-sources
 
 
 
