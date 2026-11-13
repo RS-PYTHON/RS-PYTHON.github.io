@@ -102,7 +102,7 @@ feature_deployment:
 
 {% include feature_row id="intro" type="center" %}
 
-<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, and Sentinel-3 data. </p>
+<p align="justify">Reference System Python will  support at first processing chains for Sentinel-1, Sentinel-2, Sentinel-3 and Cristal data. </p>
 
 <table>
 	<tr>
